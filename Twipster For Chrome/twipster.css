@@ -227,3 +227,10 @@ body {
 .dashboard .module[role="navigation"] {
     display: none;
 }
+
+.with-media-forward .cards-base .media-forward {
+    max-height: 0 !important;
+}
+.with-media-forward.opened-tweet .cards-base .media-forward {
+    max-height: none !important;
+}
