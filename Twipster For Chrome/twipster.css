@@ -1,10 +1,10 @@
 /*  -------------------------------------------------
-    
+
     Twipster
-    
+
     Simpler & More Readable Twitter Userstyles
     Based on Craig Mod's Minimal Twitter.
- 
+
     ------------------------------------------------- */
 
 
@@ -30,7 +30,7 @@
   display: none !important;
 }
 
-    
+
 /* Tweets Without Borders */
 .stream-item, .tweet, .stream-loading, .stream-end, .new-tweets-bar, .module {
   border: none !important;
@@ -39,7 +39,7 @@
 .stream-item-activity-me {
   border-bottom: none !important;
 }
-    
+
 /* Lighten up secondary information */
 .username, .time, .time a, .metadata, .metadata button.btn-link, .metadata a, .with-icn, .with-icn:hover, .with-icn:focus, .context span, .context a.pretty-link b, .account-group span, .account-group s, .account-group strong {
   color: #aaa !important;
@@ -52,13 +52,13 @@
 .wrapper-settings .content-header {
   display: block !important;
 }
- 
+
 .wrapper, .wrapper-narrow, .wrapper-permalink {
   background: none !important;
   width: 90% !important;
   max-width: 56em !important;
 }
- 
+
 .dashboard, .content-main {
   float: none !important;
   width: 100% !important;
@@ -77,7 +77,6 @@ body {
   width: 100% !important;
   margin: 0 auto !important;
   background-image: none !important;
-  background-color: #333 !important;
 }
 
 .global-nav-inner {
@@ -147,7 +146,7 @@ body {
   background-position: 0 -190px !important;
 }
 
-.tweet:hover .sm-rt, .tweet.focus .sm-rt, .simple-tweet .sm-rt, .hovered-stream-item .sm-rt, .simple-tweet.opened-tweet:hover .sm-rt { 
+.tweet:hover .sm-rt, .tweet.focus .sm-rt, .simple-tweet .sm-rt, .hovered-stream-item .sm-rt, .simple-tweet.opened-tweet:hover .sm-rt {
   background-position: -20px -190px !important;
 }
 
@@ -225,3 +224,6 @@ body {
   max-width: none !important;
 }
 
+.dashboard .module[role="navigation"] {
+    display: none;
+}
