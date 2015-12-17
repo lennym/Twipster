@@ -234,3 +234,7 @@ body {
 .with-media-forward.opened-tweet .cards-base .media-forward {
     max-height: none !important;
 }
+
+.moments {
+    display: none;
+}
